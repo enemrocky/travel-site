@@ -1,0 +1,48 @@
+// Custom
+// color
+$primary: #22B3C1;
+
+// font
+$h1-font-size: 3.5rem;
+
+// carousel
+$carousel-indicator-width:           100px;
+$carousel-indicator-height:          2px;
+$carousel-indicator-spacer:          30px;
+$carousel-indicator-opacity:         .2;
+$carousel-indicator-active-bg:       #22B3C1;
+$carousel-caption-width:             85%;
+
+// border
+$border-radius:               1.25rem;
+
+// pagination   
+$pagination-padding-y:              .55rem;
+$pagination-padding-x:              .85rem;
+$pagination-border-color:           #fff;
+
+$pagination-focus-color:            #fff;
+$pagination-focus-bg:               #22B3C1;
+$pagination-focus-outline:          0;
+
+$pagination-hover-color:            #fff;
+$pagination-hover-bg:    #22B3C1;
+$pagination-hover-border-color:     none;
+
+$pagination-active-color:           #fff;
+$pagination-active-bg:              #22B3C1;
+$pagination-active-border-color:    none;
+
+// dropdown
+$dropdown-min-width:                20rem;
+$dropdown-padding-x:                0;
+$dropdown-padding-y:                0rem;
+$dropdown-bg:                       #22B3C1;
+$dropdown-border-radius:            none;
+$dropdown-link-color:               white;
+$dropdown-link-hover-color:         #22B3C1;
+$dropdown-link-hover-bg:            white;
+
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";

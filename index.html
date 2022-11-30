@@ -1,0 +1,590 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="sass/custom.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <title>TRAVEL</title>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-primary py-3"
+      style="z-index: 1"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-nav"
+          aria-controls="nav-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-nav">
+          <ul class="navbar-nav text-center ms-lg-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-light active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item ms-lg-4">
+              <a class="nav-link text-light" href="about.html">About</a>
+            </li>
+            <li class="nav-item ms-lg-4">
+              <a class="nav-link text-light" href="deals.html">Deals</a>
+            </li>
+            <li class="nav-item ms-lg-4">
+              <a class="nav-link text-light" href="reservation.html">Reservation</a>
+            </li>
+            <li class="nav-item ms-lg-4">
+              <a class="nav-link text-light" href="reservation.html">Book Yours</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <section id="banner">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide carousel-fade h-100"
+        data-bs-ride="carousel"
+        style="margin-top: -4vh; z-index: 0"
+      >
+        <div class="carousel-indicators mb-5 pb-3">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- carousel item 1 -->
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img
+              src="img/banner-01.jpg"
+              class="d-block w-auto w-lg-100 h-lg-auto h-100"
+              alt="..."
+            />
+            <div class="carousel-caption mb-3 mb-lg-5">
+              <p class="fs-3">Take a Glimpse Into The Beautiful Country Of:</p>
+              <h1>Caribbean</h1>
+              <a
+                href=""
+                class="btn btn-outline-primary bg-transparent rounded-pill py-2 px-4 mt-4 mb-4 mb-lg-5"
+                >Go There</a
+              >
+              <div class="rounded-pill py-4 px-5 bg-light mb-5">
+                <div class="container">
+                  <div
+                    class="row justify-content-center text-dark align-items-center"
+                  >
+                    <div class="col-6 col-lg-3 mb-2 mb-lg-0">
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="border border-primary rounded-circle p-2 p-lg-3 me-2 me-lg-3 fs-3"
+                          ><i class="bi bi-person-fill text-primary"></i
+                        ></span>
+                        <div class="text-start">
+                          <p class="mb-0">Population:</p>
+                          <span class="text-primary fs-6 fw-bold mt-0"
+                            >44.48 M</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-6 col-lg-3 mb-2 mb-lg-0"
+                    >
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="border border-primary rounded-circle p-2 p-lg-3 me-2 me-lg-3 fs-3"
+                          ><i class="bi bi-globe text-primary"></i
+                        ></span>
+                        <div class="text-start">
+                          <p class="mb-0">Territory:</p>
+                          <span
+                            class="text-primary text-nowrap fs-6 fw-bold mt-0"
+                            >275.400 KM2</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mt-2 mt-lg-0">
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="border border-primary rounded-pill rounded-circle p-2 p-lg-3 me-2 me-lg-3 fs-3"
+                          ><i class="bi bi-house-door-fill text-primary"></i
+                        ></span>
+                        <div class="text-start">
+                          <p class="mb-0">AVG Price:</p>
+                          <span class="text-primary fs-6 fw-bold mt-0"
+                            >$946.000</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mt-2 mt-lg-0">
+                      <div
+                        class="btn btn-primary py-1 py-lg-2 px-3 px-lg-4 text-light rounded-pill"
+                      >
+                        Explore More
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- carousel item 2 -->
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="img/banner-02.jpg"
+              class="d-block w-auto w-lg-100 h-lg-auto h-100"
+              alt="..."
+            />
+            <div class="carousel-caption mb-3 mb-lg-5">
+              <p class="fs-3">Take a Glimpse Into The Beautiful Country Of:</p>
+              <h1>Switzerland</h1>
+              <a
+                href=""
+                class="btn btn-outline-primary bg-transparent rounded-pill py-2 px-4 mt-4 mb-4 mb-lg-5"
+                >Go There</a
+              >
+              <div class="rounded-pill py-4 px-5 bg-light mb-5">
+                <div class="container">
+                  <div
+                    class="row justify-content-center text-dark align-items-center"
+                  >
+                    <div class="col-6 col-lg-3 mb-2 mb-lg-0">
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="border border-primary rounded-circle p-2 p-lg-3 me-2 me-lg-3 fs-3"
+                          ><i class="bi bi-person-fill text-primary"></i
+                        ></span>
+                        <div class="text-start">
+                          <p class="mb-0">Population:</p>
+                          <span class="text-primary fs-6 fw-bold mt-0"
+                            >8.66 M</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-6 col-lg-3 mb-2 mb-lg-0"
+                    >
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="border border-primary rounded-circle p-2 p-lg-3 me-2 me-lg-3 fs-3"
+                          ><i class="bi bi-globe text-primary"></i
+                        ></span>
+                        <div class="text-start">
+                          <p class="mb-0">Territory:</p>
+                          <span
+                            class="text-primary text-nowrap fs-6 fw-bold mt-0"
+                            >41.290 KM2</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mt-2 mt-lg-0">
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="border border-primary rounded-circle p-2 p-lg-3 me-2 me-lg-3 fs-3"
+                          ><i class="bi bi-house-door-fill text-primary"></i
+                        ></span>
+                        <div class="text-start">
+                          <p class="mb-0">AVG Price:</p>
+                          <span class="text-primary fs-6 fw-bold mt-0"
+                            >$1.100.200</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mt-2 mt-lg-0">
+                      <div
+                        class="btn btn-primary py-1 py-lg-2 px-3 px-lg-4 text-light rounded-pill"
+                      >
+                        Explore More
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- carousel item 3 -->
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="img/banner-03.jpg"
+              class="d-block w-auto w-lg-100 h-lg-auto h-100"
+              alt="..."
+            />
+            <div class="carousel-caption mb-3 mb-lg-5">
+              <p class="fs-3">Take a Glimpse Into The Beautiful Country Of:</p>
+              <h1>France</h1>
+              <a
+                href=""
+                class="btn btn-outline-primary bg-transparent rounded-pill py-2 px-4 mt-4 mb-4 mb-lg-5"
+                >Go There</a
+              >
+              <div class="rounded-pill py-4 px-5 bg-light mb-5">
+                <div class="container">
+                  <div
+                    class="row justify-content-center text-dark align-items-center"
+                  >
+                    <div class="col-6 col-lg-3 mb-2 mb-lg-0">
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="border border-primary rounded-circle p-2 p-lg-3 me-2 me-lg-3 fs-3"
+                          ><i class="bi bi-person-fill text-primary"></i
+                        ></span>
+                        <div class="text-start">
+                          <p class="mb-0">Population:</p>
+                          <span class="text-primary fs-6 fw-bold mt-0"
+                            >67.41 M</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-6 col-lg-3 mb-2 mb-lg-0"
+                      
+                    >
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="border border-primary rounded-circle p-2 p-lg-3 me-2 me-lg-3 fs-3"
+                          ><i class="bi bi-globe text-primary"></i
+                        ></span>
+                        <div class="text-start">
+                          <p class="mb-0">Territory:</p>
+                          <span
+                            class="text-primary text-nowrap fs-6 fw-bold mt-0"
+                            >551.500 KM2</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mt-2 mt-lg-0">
+                      <div class="d-flex align-items-center">
+                        <span
+                          class="border border-primary rounded-circle p-2 p-lg-3 me-2 me-lg-3 fs-3"
+                          ><i class="bi bi-house-door-fill text-primary"></i
+                        ></span>
+                        <div class="text-start">
+                          <p class="mb-0">AVG Price:</p>
+                          <span class="text-primary fs-6 fw-bold mt-0"
+                            >$425.600</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mt-2 mt-lg-0">
+                      <div
+                        class="btn btn-primary py-1 py-lg-2 px-3 px-lg-4 text-light rounded-pill"
+                      >
+                        Explore More
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="text-start">
+          <h2 class="fw-bold">Visit One Of Our Countries Now</h2>
+          <p class="text-muted mt-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+            laudantium dolores ducimus.
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <!-- country 1 start -->
+            <div class="row mt-4 border-bottom pb-2">
+              <div class="col-lg-4">
+                <div class="pt-4">
+                  <img
+                    class="img-fluid rounded py-1"
+                    src="img/country-01.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-8 mt-4">
+                <div class="d-flex justify-content-between">
+                  <div class="country">
+                    <h5 class="mb-0 fw-bold">SWITZERLAND</h5>
+                    <p class="text-muted mb-0">Europe</p>
+                  </div>
+                  <button
+                    class="btn btn-primary rounded-pill px-4 py-0 text-light"
+                  >
+                    Explore More
+                  </button>
+                </div>
+
+                <div class="row mt-3 mb-2">
+                  <p class="text-muted lh-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quam explicabo provident eaque veritatis. Molestiae
+                    perspiciatis recusandae voluptatum molestias illo et.
+                  </p>
+                </div>
+
+                <div class="row py-3 border-bottom border-top">
+                  <div class="d-flex justify-content-between">
+                    <span class="text-muted">
+                      <i class="bi bi-person-fill"></i> 8.66 Mil People
+                    </span>
+                    <span class="text-muted">
+                      <i class="bi bi-globe"></i> 41.290 km2
+                    </span>
+                    <span class="text-muted">
+                      <i class="bi bi-house-door-fill"></i> $1.100.200
+                    </span>
+                  </div>
+                </div>
+
+                <div class="row py-3">
+                  <a href="#" class="text-primary text-decoration-none"
+                    >Need direction? <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- country 2 start -->
+            <div class="row mt-4 border-bottom pb-2">
+              <div class="col-lg-4">
+                <div class="pt-4">
+                  <img
+                    class="img-fluid rounded py-1"
+                    src="img/country-02.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-8 mt-4">
+                <div class="d-flex justify-content-between">
+                  <div class="country">
+                    <h5 class="mb-0 fw-bold">CARIBBEAN</h5>
+                    <p class="text-muted mb-0">North America</p>
+                  </div>
+                  <button
+                    class="btn btn-primary rounded-pill px-4 py-0 text-light"
+                  >
+                    Explore More
+                  </button>
+                </div>
+
+                <div class="row mt-3 mb-2">
+                  <p class="text-muted lh-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quam explicabo provident eaque veritatis. Molestiae
+                    perspiciatis recusandae voluptatum molestias illo et.
+                  </p>
+                </div>
+
+                <div class="row py-3 border-bottom border-top">
+                  <div class="d-flex justify-content-between">
+                    <span class="text-muted">
+                      <i class="bi bi-person-fill"></i> 8.66 Mil People
+                    </span>
+                    <span class="text-muted">
+                      <i class="bi bi-globe"></i> 41.290 km2
+                    </span>
+                    <span class="text-muted">
+                      <i class="bi bi-house-door-fill"></i> $1.100.200
+                    </span>
+                  </div>
+                </div>
+
+                <div class="row py-3">
+                  <a href="#" class="text-primary text-decoration-none"
+                    >Need direction? <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- country 3 start -->
+            <div class="row mt-4">
+              <div class="col-lg-4">
+                <div class="pt-4">
+                  <img
+                    class="img-fluid rounded py-1"
+                    src="img/country-03.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-8 mt-4">
+                <div class="d-flex justify-content-between">
+                  <div class="country">
+                    <h5 class="mb-0 fw-bold">FRANCE</h5>
+                    <p class="text-muted mb-0">Europe</p>
+                  </div>
+                  <button
+                    class="btn btn-primary rounded-pill px-4 py-0 text-light"
+                  >
+                    Explore More
+                  </button>
+                </div>
+
+                <div class="row mt-3 mb-2">
+                  <p class="text-muted lh-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quam explicabo provident eaque veritatis. Molestiae
+                    perspiciatis recusandae voluptatum molestias illo et.
+                  </p>
+                </div>
+
+                <div class="row py-3 border-bottom border-top">
+                  <div class="d-flex justify-content-between">
+                    <span class="text-muted">
+                      <i class="bi bi-person-fill"></i> 8.66 Mil People
+                    </span>
+                    <span class="text-muted">
+                      <i class="bi bi-globe"></i> 41.290 km2
+                    </span>
+                    <span class="text-muted">
+                      <i class="bi bi-house-door-fill"></i> $1.100.200
+                    </span>
+                  </div>
+                </div>
+
+                <div class="row py-3">
+                  <a href="#" class="text-primary text-decoration-none"
+                    >Need direction? <i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- pagination -->
+            <div class="d-flex align-items-center justify-content-center mt-5">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <!-- map -->
+          <div class="col-lg-4">
+            <div class="container rounded">
+              <iframe
+                class="rounded ms-lg-4 mt-5"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25743.866824042565!2d-80.12767808086403!3d25.969553271220327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9acfee073549d%3A0xf4e74db7a5da487a!2sSunny%20Isles%20Beach%2C%20FL%2033160%2C%20USA!5e1!3m2!1sen!2sza!4v1669420505156!5m2!1sen!2sza"
+                width="100%"
+                height="600"
+                style="border: 0; box-sizing: border-box"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- call to action -->
+    <section
+      class="py-5 text-light"
+      style="
+        background-image: url(img/cta-bg.jpg);
+        width: 100%;
+        background-size: cover;
+      "
+    >
+      <div class="container">
+        <div
+          class="d-lg-flex justify-content-center align-items-center justify-content-lg-between py-3"
+        >
+          <div class="text-center text-lg-start mb-4 mb-lg-auto">
+            <h2 class="fw-bold">ARE YOU LOOKING TO TRAVEL ?</h2>
+            <h5>Make A Reservation By Clicking The Button</h5>
+          </div>
+          <div class="text-center text-lg-end">
+            <button
+              class="btn btn-outline border-light px-4 py-2 text-light m-auto"
+            >
+              Book Yours Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="py-4 bg-primary text-light">
+      <div class="container">
+        <div class="text-center">
+          <p class="mb-0 mt-2">
+            Copyright &copy; Mitey_enem Company. All rights reserved.
+          </p>
+          <p class="mt-0">Design: Enemrocky</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
